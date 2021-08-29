@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <style>
+      .countries {
+        background-color: cyan;
+        border: 5px solid orangered;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      #country {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      h1 {
+        text-align: center;
+      }
+      .country-detail {
+        text-align: center;
+        background-color: lightgreen;
+        border: 5px solid orangered;
+        padding-top: 24px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Country Details</h1>
+      <div id="country-details"></div>
+    </section>
+    <h1>Countries with Capital</h1>
+    <hr />
+    <section id="country"></section>
+
+    <script src="country.js"></script>
+  </body>
+</html>
